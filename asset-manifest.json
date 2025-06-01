@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/raaichu121/HEALTH-CARE/static/css/main.c282a9d6.css",
-    "main.js": "/raaichu121/HEALTH-CARE/static/js/main.7d6a73d6.js",
-    "static/media/Doc-App.png": "/raaichu121/HEALTH-CARE/static/media/Doc-App.47491a68242b020f033a.png",
-    "static/media/doctor-group.png": "/raaichu121/HEALTH-CARE/static/media/doctor-group.01394386d8270bd40bc1.png",
-    "static/media/doc-4.png": "/raaichu121/HEALTH-CARE/static/media/doc-4.7111f1d39ea5930e5cb9.png",
-    "static/media/doc-2.png": "/raaichu121/HEALTH-CARE/static/media/doc-2.6f0e5cf5faa95f647955.png",
-    "static/media/doc-1.png": "/raaichu121/HEALTH-CARE/static/media/doc-1.085c5cef465eb0bf3529.png",
-    "static/media/doc-3.png": "/raaichu121/HEALTH-CARE/static/media/doc-3.e67ab7efbdada1650957.png",
-    "static/media/doctor-pic.png": "/raaichu121/HEALTH-CARE/static/media/doctor-pic.5afe07bcadd84ab9506c.png",
-    "index.html": "/raaichu121/HEALTH-CARE/index.html",
-    "main.c282a9d6.css.map": "/raaichu121/HEALTH-CARE/static/css/main.c282a9d6.css.map",
-    "main.7d6a73d6.js.map": "/raaichu121/HEALTH-CARE/static/js/main.7d6a73d6.js.map"
+    "main.css": "/HEALTH-CARE/static/css/main.c282a9d6.css",
+    "main.js": "/HEALTH-CARE/static/js/main.fcea74a2.js",
+    "static/media/Doc-App.png": "/HEALTH-CARE/static/media/Doc-App.47491a68242b020f033a.png",
+    "static/media/doctor-group.png": "/HEALTH-CARE/static/media/doctor-group.01394386d8270bd40bc1.png",
+    "static/media/doc-4.png": "/HEALTH-CARE/static/media/doc-4.7111f1d39ea5930e5cb9.png",
+    "static/media/doc-2.png": "/HEALTH-CARE/static/media/doc-2.6f0e5cf5faa95f647955.png",
+    "static/media/doc-1.png": "/HEALTH-CARE/static/media/doc-1.085c5cef465eb0bf3529.png",
+    "static/media/doc-3.png": "/HEALTH-CARE/static/media/doc-3.e67ab7efbdada1650957.png",
+    "static/media/doctor-pic.png": "/HEALTH-CARE/static/media/doctor-pic.5afe07bcadd84ab9506c.png",
+    "index.html": "/HEALTH-CARE/index.html",
+    "main.c282a9d6.css.map": "/HEALTH-CARE/static/css/main.c282a9d6.css.map",
+    "main.fcea74a2.js.map": "/HEALTH-CARE/static/js/main.fcea74a2.js.map"
   },
   "entrypoints": [
     "static/css/main.c282a9d6.css",
-    "static/js/main.7d6a73d6.js"
+    "static/js/main.fcea74a2.js"
   ]
 }
