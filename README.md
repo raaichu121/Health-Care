@@ -62,7 +62,7 @@ This command initiates the development server, typically opening the application
 📂 Project Architecture & Directory Structure 📂
 
 The project adheres to a logical and scalable directory structure, promoting maintainability and collaboration:
-
+```bash
 health-care-app/
 ├── public/                     // 🌐 Contains static assets served directly by the web server (e.g., index.html, favicon.ico).
 ├── src/                        // 💖 The heart of the application; all source code resides here.
@@ -97,7 +97,7 @@ health-care-app/
 ├── .gitignore                  // 🙈 Specifies intentionally untracked files and directories that Git should ignore.
 ├── package.json                // 📦 Defines project metadata, scripts, and all npm dependencies.
 └── README.md                   // 📖 This comprehensive README file, providing project documentation.
-
+```
 🗺️ Detailed Navigation Map 🗺️
 
 The application's routing is meticulously defined using react-router-dom to ensure a logical and intuitive user flow:
