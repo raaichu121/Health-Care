@@ -56,6 +56,7 @@ To start the application in development mode:
 
 ```bash
 npm start
+```
 
 This command initiates the development server, typically opening the application in your default web browser at http://localhost:3000 (or an alternative available port). The development server also features Hot Module Replacement (HMR), allowing for real-time updates in the browser as you modify the source code, significantly speeding up the development workflow. Any compilation errors or linting warnings will be displayed directly in your console.
 📂 Project Architecture & Directory Structure 📂
@@ -102,11 +103,8 @@ health-care-app/
 The application's routing is meticulously defined using react-router-dom to ensure a logical and intuitive user flow:
 
     /: This route renders the Home component. It serves as the primary entry point and provides an overview of the application's services and features.
-
     /legal: This route renders the Legal component. It's dedicated to displaying legal disclaimers, privacy policies, terms of service, and other important compliance information.
-
     /appointment: This route renders the Appointment component. It's the central hub for all appointment-related functionalities, including scheduling, viewing, and managing existing bookings.
-
     * (wildcard route): This catch-all route renders the NotFound component. It's activated when a user attempts to navigate to a URL that does not match any defined routes, providing a graceful fallback.
 
 🤝 Join Our Journey: Contribution Guidelines! 🤝
@@ -114,23 +112,15 @@ The application's routing is meticulously defined using react-router-dom to ensu
 We wholeheartedly welcome and appreciate contributions from the community! Your efforts can significantly enhance this project. Please follow these guidelines to ensure a smooth collaboration process:
 
     Fork the Repository: Start by forking this repository to your personal GitHub account.
-
     Create a New Branch: For each new feature or bug fix, create a dedicated branch from the main branch.
-
     git checkout -b feature/your-descriptive-feature-name
     # Example: git checkout -b feature/add-doctor-search
-
     Implement Your Changes: Write your code, ensuring it adheres to the project's coding style and best practices.
-
     Commit Your Changes: Commit your modifications with a clear, concise, and descriptive commit message. We recommend following a conventional commit format (e.g., feat: Add new feature, fix: Resolve bug in X).
-
     git commit -m 'feat: Implement [brief description of your feature/fix]'
     # Example: git commit -m 'fix: Correct date format in appointment display'
-
     Push to Your Branch: Upload your local changes to your forked repository.
-
     git push origin feature/your-descriptive-feature-name
-
     Open a Pull Request (PR): Navigate to the original repository on GitHub and open a Pull Request from your new branch to the main branch. Please provide a detailed description of your changes and any relevant context.
 
 📜 License Information 📜
