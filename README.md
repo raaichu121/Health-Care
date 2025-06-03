@@ -52,7 +52,7 @@ Ready to explore the Health-Care React App on your local development environment
     
 ###  Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 ###  Launching the Application
 
