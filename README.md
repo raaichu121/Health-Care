@@ -63,46 +63,6 @@ npm start
 ```
 
 This command initiates the development server, typically opening the application in your default web browser at http://localhost:3000 (or an alternative available port). The development server also features Hot Module Replacement (HMR), allowing for real-time updates in the browser as you modify the source code, significantly speeding up the development workflow. Any compilation errors or linting warnings will be displayed directly in your console.
-Project Architecture & Directory Structure
-
-The project adheres to a logical and scalable directory structure, promoting maintainability and collaboration:
-```bash
-health-care-app/
-├── public/                     // Contains static assets served directly by the web server (e.g., index.html, favicon.ico).
-├── src/                        // The heart of the application; all source code resides here.
-│   ├── Assets/                 // Stores static media assets like images, icons, and fonts.
-│   ├── Components/             // Houses reusable UI components (e.g., Navbar, Footer, buttons, forms).
-│   │   ├── About.js            // Component for the 'About Us' section.
-│   │   ├── AppointmentForm.js  // Form for submitting appointment details.
-│   │   ├── BookAppointment.js  // Component orchestrating the appointment booking process.
-│   │   ├── DoctorCard.js       // Reusable card component for displaying doctor information.
-│   │   ├── Doctors.js          // Page/section displaying a list of doctors.
-│   │   ├── Footer.js           // Application-wide footer component.
-│   │   ├── Hero.js             // Main hero section component for the home page.
-│   │   ├── Info.js             // Component for displaying general information blocks.
-│   │   ├── InformationCard.js  // Generic card for displaying informational content.
-│   │   ├── LegalDocs.js        // Component to render legal documents.
-│   │   ├── Navbar.js           // Application-wide navigation bar.
-│   │   ├── Reviews.js          // Component for displaying user reviews/testimonials.
-│   │   ├── SolutionStep.js     // Component outlining steps in a solution process.
-│   │   └── SubscribeNewsletter.js // Component for newsletter subscription.
-│   ├── Pages/                  // Top-level components representing distinct views or "pages" of the application.
-│   │   ├── Appointment.js      // The main page for appointment-related interactions.
-│   │   ├── Home.js             // The primary landing page of the application.
-│   │   ├── Legal.js            // The page displaying legal information.
-│   │   └── NotFound.js         // The page displayed for invalid routes (404 errors).
-│   ├── Scripts/                // Contains utility JavaScript files or data scripts.
-│   │   └── reviews.js          // Script likely containing data or logic for reviews.
-│   ├── Styles/                 // Holds global CSS files or shared styling components.
-│   │   └── App.css             // Main application-wide CSS file.
-│   ├── App.css                 // Primary stylesheet for the App component.
-│   ├── App.js                  // The root component of the React application, responsible for global layout and routing.
-│   └── index.js                // The entry point of the React application, where the root component is rendered to the DOM.
-├── .gitignore                  // Specifies intentionally untracked files and directories that Git should ignore.
-├── package.json                // Defines project metadata, scripts, and all npm dependencies.
-└── README.md                   // This comprehensive README file, providing project documentation.
-```
- Detailed Navigation Map 
 
 The application's routing is meticulously defined using react-router-dom to ensure a logical and intuitive user flow:
 
